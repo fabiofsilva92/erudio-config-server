@@ -1,10 +1,7 @@
+
 spring:
   application:
     name: greeting-service
-
-greeting-service:
-  greeting: "Ola"
-  default-value: "Mundo"
 
 management:
   endpoints:
@@ -12,3 +9,7 @@ management:
       exposure:
         include:
           - '*'
+
+greeting-service:
+  greeting: "Ola"
+  default-value: "Mundo"
